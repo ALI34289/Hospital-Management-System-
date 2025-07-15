@@ -31,9 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function updateText() {
-        const elements = document.querySelectorAll('[data-lang-en]');
-        elements.forEach(el => {
-            el.textContent = el.getAttribute(`data-lang-${currentLanguage}`);
+        document.querySelectorAll('[data-lang-en]').forEach(el => {
+            el.innerText = el.getAttribute(`data-lang-${currentLanguage}`);
         });
     }
 
