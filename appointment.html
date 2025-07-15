@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" data-lang-en="HospitalName" data-lang-hi="अस्पताल का नाम">HospitalName</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-lang-en="Home" data-lang-hi="होम">Home</a></li>
+                    <li><a href="about.html" data-lang-en="About Us" data-lang-hi="हमारे बारे में">About Us</a></li>
+                    <li><a href="departments.html" data-lang-en="Departments" data-lang-hi="विभागों">Departments</a></li>
+                    <li><a href="doctors.html" data-lang-en="Doctors" data-lang-hi="डॉक्टरों">Doctors</a></li>
+                    <li><a href="appointment.html" data-lang-en="Appointment" data-lang-hi="नियुक्ति">Appointment</a></li>
+                    <li><a href="contact.html" data-lang-en="Contact Us" data-lang-hi="संपर्क करें">Contact Us</a></li>
+                    <li><a href="admin.html" data-lang-en="Admin" data-lang-hi="व्यवस्थापक">Admin</a></li>
+                </ul>
+                <div class="mobile-menu-icon">&#9776;</div>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="language-toggle" class="language-toggle-btn">
+                    HI
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="appointment">
+            <div class="container">
+                <h2 data-lang-en="Book an Appointment" data-lang-hi="अपॉइंटमेंट बुक करें">Book an Appointment</h2>
+                <form id="appointment-form">
+                    <div class="form-group">
+                        <label for="name" data-lang-en="Full Name" data-lang-hi="पूरा नाम">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-lang-en="Email Address" data-lang-hi="ईमेल पता">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-lang-en="Phone Number" data-lang-hi="फ़ोन नंबर">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date" data-lang-en="Preferred Date" data-lang-hi="पसंदीदा तारीख">Preferred Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="department" data-lang-en="Department" data-lang-hi="विभाग">Department</label>
+                        <select id="department" required>
+                            <option value="" data-lang-en="Select Department" data-lang-hi="विभाग चुनें">Select Department</option>
+                            <option value="Cardiology" data-lang-en="Cardiology" data-lang-hi="हृदय रोग विज्ञान">Cardiology</option>
+                            <option value="Neurology" data-lang-en="Neurology" data-lang-hi="तंत्रिका-विज्ञान">Neurology</option>
+                            <option value="Orthopedics" data-lang-en="Orthopedics" data-lang-hi="हड्डी रोग">Orthopedics</option>
+                            <option value="Pediatrics" data-lang-en="Pediatrics" data-lang-hi="बाल चिकित्सा">Pediatrics</option>
+                            <option value="Oncology" data-lang-en="Oncology" data-lang-hi="कैंसर विज्ञान">Oncology</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" data-lang-en="Book Appointment" data-lang-hi="अपॉइंटमेंट बुक करें">Book Appointment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 data-lang-en="Appointment Confirmed!" data-lang-hi="अपॉइंटमेंट की पुष्टि हुई!">Appointment Confirmed!</h2>
+            <p data-lang-en="Thank you for booking an appointment with us. We will contact you shortly." data-lang-hi="हमारे साथ अपॉइंटमेंट बुक करने के लिए धन्यवाद। हम आपसे शीघ्र ही संपर्क करेंगे।">Thank you for booking an appointment with us. We will contact you shortly.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p data-lang-en="&copy; 2024 HospitalName. All Rights Reserved." data-lang-hi="&copy; 2024 अस्पताल का नाम। सर्वाधिकार सुरक्षित।">&copy; 2024 HospitalName. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" data-lang-en="Facebook" data-lang-hi="फेसबुक">Facebook</a></li>
+                <li><a href="#" data-lang-en="Twitter" data-lang-hi="ट्विटर">Twitter</a></li>
+                <li><a href="#" data-lang-en="LinkedIn" data-lang-hi="लिंक्डइन">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" data-lang-en="HospitalName" data-lang-hi="अस्पताल का नाम">HospitalName</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-lang-en="Home" data-lang-hi="होम">Home</a></li>
+                    <li><a href="about.html" data-lang-en="About Us" data-lang-hi="हमारे बारे में">About Us</a></li>
+                    <li><a href="departments.html" data-lang-en="Departments" data-lang-hi="विभागों">Departments</a></li>
+                    <li><a href="doctors.html" data-lang-en="Doctors" data-lang-hi="डॉक्टरों">Doctors</a></li>
+                    <li><a href="appointment.html" data-lang-en="Appointment" data-lang-hi="नियुक्ति">Appointment</a></li>
+                    <li><a href="contact.html" data-lang-en="Contact Us" data-lang-hi="संपर्क करें">Contact Us</a></li>
+                    <li><a href="admin.html" data-lang-en="Admin" data-lang-hi="व्यवस्थापक">Admin</a></li>
+                </ul>
+                <div class="mobile-menu-icon">&#9776;</div>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="language-toggle" class="language-toggle-btn">
+                    HI
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-lang-en="Welcome to Our Hospital" data-lang-hi="हमारे अस्पताल में आपका स्वागत है">Welcome to Our Hospital</h1>
+                <p data-lang-en="Providing exceptional care for our community." data-lang-hi="हमारे समुदाय के लिए असाधारण देखभाल प्रदान करना।">Providing exceptional care for our community.</p>
+                <a href="appointment.html" class="btn" data-lang-en="Book Appointment" data-lang-hi="अपॉइंटमेंट बुक करें">Book Appointment</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 data-lang-en="Our Services" data-lang-hi="हमारी सेवाएं">Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <i class="fas fa-ambulance fa-3x"></i>
+                        <h3 data-lang-en="Emergency Care" data-lang-hi="आपातकालीन देखभाल">Emergency Care</h3>
+                        <p data-lang-en="24/7 emergency services with a dedicated team of professionals." data-lang-hi="पेशेवरों की एक समर्पित टीम के साथ 24/7 आपातकालीन सेवाएं।">24/7 emergency services with a dedicated team of professionals.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-stethoscope fa-3x"></i>
+                        <h3 data-lang-en="Specialized Surgery" data-lang-hi="विशेष शल्य चिकित्सा">Specialized Surgery</h3>
+                        <p data-lang-en="Advanced surgical procedures performed by expert surgeons." data-lang-hi="विशेषज्ञ सर्जनों द्वारा की जाने वाली उन्नत शल्य प्रक्रियाएं।">Advanced surgical procedures performed by expert surgeons.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-baby fa-3x"></i>
+                        <h3 data-lang-en="Pediatric Care" data-lang-hi="बाल चिकित्सा देखभाल">Pediatric Care</h3>
+                        <p data-lang-en="Comprehensive healthcare services for children of all ages." data-lang-hi="सभी उम्र के बच्चों के लिए व्यापक स्वास्थ्य सेवाएं।">Comprehensive healthcare services for children of all ages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-lang-en="&copy; 2024 HospitalName. All Rights Reserved." data-lang-hi="&copy; 2024 अस्पताल का नाम। सर्वाधिकार सुरक्षित।">&copy; 2024 HospitalName. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" data-lang-en="Facebook" data-lang-hi="फेसबुक">Facebook</a></li>
+                <li><a href="#" data-lang-en="Twitter" data-lang-hi="ट्विटर">Twitter</a></li>
+                <li><a href="#" data-lang-en="LinkedIn" data-lang-hi="लिंक्डइन">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

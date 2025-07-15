@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Changing Language Toggle</title>
+    <link rel="stylesheet" href="language-style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <h1 data-lang-en="Welcome!" data-lang-hi="आपका स्वागत है!">Welcome!</h1>
+            <button id="language-toggle-btn">Switch to Hindi</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container content">
+            <section class="lang-en">
+                <h2>About Us</h2>
+                <p>This is a sample paragraph in English. We are demonstrating the language toggle functionality.</p>
+            </section>
+            <section class="lang-hi" style="display: none;">
+                <h2>हमारे बारे में</h2>
+                <p>यह हिंदी में एक नमूना पैराग्राफ है। हम भाषा टॉगल कार्यक्षमता का प्रदर्शन कर रहे हैं।</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="language-script.js"></script>
+</body>
+</html>

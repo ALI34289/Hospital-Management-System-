@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#main-header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    transition: background-color 0.5s ease;
+}
+
+#main-header.hindi {
+    background-color: #ff9933; /* Saffron color for Hindi */
+}
+
+#language-toggle-btn {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#main-header.hindi #language-toggle-btn {
+    color: #ff9933;
+}
+
+.content {
+    padding: 40px 20px;
+}

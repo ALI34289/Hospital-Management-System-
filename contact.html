@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" data-lang-en="HospitalName" data-lang-hi="अस्पताल का नाम">HospitalName</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-lang-en="Home" data-lang-hi="होम">Home</a></li>
+                    <li><a href="about.html" data-lang-en="About Us" data-lang-hi="हमारे बारे में">About Us</a></li>
+                    <li><a href="departments.html" data-lang-en="Departments" data-lang-hi="विभागों">Departments</a></li>
+                    <li><a href="doctors.html" data-lang-en="Doctors" data-lang-hi="डॉक्टरों">Doctors</a></li>
+                    <li><a href="appointment.html" data-lang-en="Appointment" data-lang-hi="नियुक्ति">Appointment</a></li>
+                    <li><a href="contact.html" data-lang-en="Contact Us" data-lang-hi="संपर्क करें">Contact Us</a></li>
+                    <li><a href="admin.html" data-lang-en="Admin" data-lang-hi="व्यवस्थापक">Admin</a></li>
+                </ul>
+                <div class="mobile-menu-icon">&#9776;</div>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="language-toggle" class="language-toggle-btn">
+                    HI
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2 data-lang-en="Contact Us" data-lang-hi="संपर्क करें">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <h3 data-lang-en="Send Us a Message" data-lang-hi="हमें एक संदेश भेजें">Send Us a Message</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name" data-lang-en="Name" data-lang-hi="नाम">Name</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-lang-en="Email" data-lang-hi="ईमेल">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-lang-en="Message" data-lang-hi="संदेश">Message</label>
+                                <textarea id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn" data-lang-en="Send Message" data-lang-hi="संदेश भेजें">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-lang-en="Our Address" data-lang-hi="हमारा पता">Our Address</h3>
+                        <p>123 Health St, Wellness City, 12345</p>
+                        <h3 data-lang-en="Email" data-lang-hi="ईमेल">Email</h3>
+                        <p>contact@hospitalname.com</p>
+                        <h3 data-lang-en="Phone" data-lang-hi="फ़ोन">Phone</h3>
+                        <p>(123) 456-7890</p>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.225826526994!2d-122.419415584681!3d37.77492927975904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c4c1d68a5%3A0x4d3753f5c2a4a7de!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-lang-en="&copy; 2024 HospitalName. All Rights Reserved." data-lang-hi="&copy; 2024 अस्पताल का नाम। सर्वाधिकार सुरक्षित।">&copy; 2024 HospitalName. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" data-lang-en="Facebook" data-lang-hi="फेसबुक">Facebook</a></li>
+                <li><a href="#" data-lang-en="Twitter" data-lang-hi="ट्विटर">Twitter</a></li>
+                <li><a href="#" data-lang-en="LinkedIn" data-lang-hi="लिंक्डइन">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

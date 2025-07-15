@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo" data-lang-en="HospitalName" data-lang-hi="अस्पताल का नाम">HospitalName</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-lang-en="Home" data-lang-hi="होम">Home</a></li>
+                    <li><a href="about.html" data-lang-en="About Us" data-lang-hi="हमारे बारे में">About Us</a></li>
+                    <li><a href="departments.html" data-lang-en="Departments" data-lang-hi="विभागों">Departments</a></li>
+                    <li><a href="doctors.html" data-lang-en="Doctors" data-lang-hi="डॉक्टरों">Doctors</a></li>
+                    <li><a href="appointment.html" data-lang-en="Appointment" data-lang-hi="नियुक्ति">Appointment</a></li>
+                    <li><a href="contact.html" data-lang-en="Contact Us" data-lang-hi="संपर्क करें">Contact Us</a></li>
+                    <li><a href="admin.html" data-lang-en="Admin" data-lang-hi="व्यवस्थापक">Admin</a></li>
+                </ul>
+                <div class="mobile-menu-icon">&#9776;</div>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="language-toggle" class="language-toggle-btn">
+                    HI
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-dashboard">
+            <div class="container">
+                <h2 data-lang-en="Admin Dashboard" data-lang-hi="एडमिन डैशबोर्ड">Admin Dashboard</h2>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <h3 data-lang-en="Total Patients" data-lang-hi="कुल रोगी">Total Patients</h3>
+                        <p>1,234</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-lang-en="Appointments" data-lang-hi="नियुक्तियाँ">Appointments</h3>
+                        <p>567</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-lang-en="Messages" data-lang-hi="संदेश">Messages</h3>
+                        <p>89</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-lang-en="Bed Availability" data-lang-hi="बिस्तर की उपलब्धता">Bed Availability</h3>
+                        <p>45</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-lang-en="&copy; 2024 HospitalName. All Rights Reserved." data-lang-hi="&copy; 2024 अस्पताल का नाम। सर्वाधिकार सुरक्षित।">&copy; 2024 HospitalName. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" data-lang-en="Facebook" data-lang-hi="फेसबुक">Facebook</a></li>
+                <li><a href="#" data-lang-en="Twitter" data-lang-hi="ट्विटर">Twitter</a></li>
+                <li><a href="#" data-lang-en="LinkedIn" data-lang-hi="लिंक्डइन">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
